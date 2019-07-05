@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "quizzes",
+  "info": {
+    "name": "quiz",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "quiz": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "question": {
+      "type": "json"
+    }
+  }
+}

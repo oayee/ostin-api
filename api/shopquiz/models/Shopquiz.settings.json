@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "shopquizs",
+  "info": {
+    "name": "shopquiz",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "shop": {
+      "model": "shop"
+    },
+    "quiz": {
+      "model": "quiz"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "deadline": {
+      "type": "date"
+    }
+  }
+}

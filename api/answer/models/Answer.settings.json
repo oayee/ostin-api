@@ -1,0 +1,31 @@
+{
+  "connection": "default",
+  "collectionName": "answers",
+  "info": {
+    "name": "answer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "deadline": {
+      "type": "date"
+    },
+    "shop": {
+      "model": "shop"
+    },
+    "quiz": {
+      "model": "quiz"
+    },
+    "user": {
+      "model": "user",
+      "plugin": "users-permissions"
+    },
+    "answer": {
+      "type": "json"
+    }
+  }
+}

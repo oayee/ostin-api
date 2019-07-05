@@ -1,0 +1,18 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "postgres",
+        "host": "ec2-54-75-224-168.eu-west-1.compute.amazonaws.com",
+        "port": 5432,
+        "database": "d8qb6gvhnm14ui",
+        "username": "kmxxejlwzillzw",
+        "password": "8fd8b41929fce9ac179e13da5bfd84334a1aab5aff2e0200077538bf1ac428b3",
+        "ssl": true
+      },
+      "options": {}
+    }
+  }
+}

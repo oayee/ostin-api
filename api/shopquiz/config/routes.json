@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/shopquizs",
+      "handler": "Shopquiz.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shopquizs/count",
+      "handler": "Shopquiz.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/shopquizs/:id",
+      "handler": "Shopquiz.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/shopquizs",
+      "handler": "Shopquiz.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/shopquizs/:id",
+      "handler": "Shopquiz.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/shopquizs/:id",
+      "handler": "Shopquiz.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
