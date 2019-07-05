@@ -7,20 +7,23 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
     "deadline": {
       "type": "date"
     },
-    "shop": {
+    "shop_id": {
       "model": "shop"
     },
-    "quiz": {
+    "quiz_id": {
       "model": "quiz"
     },
-    "user": {
+    "user_id": {
       "model": "user",
       "plugin": "users-permissions"
     },
