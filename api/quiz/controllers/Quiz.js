@@ -5,4 +5,8 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+    getByKeys: async ctx => {
+        ctx.send(ctx.response);
+    }
+};

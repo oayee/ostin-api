@@ -2,6 +2,14 @@
   "routes": [
     {
       "method": "GET",
+      "path": "/quizzes/:shopId/:quizId/:scheduleId",
+      "handler": "Quiz.getByKeys",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
       "path": "/quizzes",
       "handler": "Quiz.find",
       "config": {
